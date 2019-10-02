@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="SAM_DEMO_II" Version="10.0.0" InternalType="Console">
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="Common">
+      <VirtualDirectory Name="drivers"/>
+      <VirtualDirectory Name="Minimal">
+        <File Name="src/Common/Minimal/StreamBufferDemo.c"/>
+        <File Name="src/Common/Minimal/death.c"/>
+        <File Name="src/Common/Minimal/semtest.c"/>
+        <File Name="src/Common/Minimal/recmutex.c"/>
+        <File Name="src/Common/Minimal/IntQueue.c" ExcludeProjConfig="Debug"/>
+        <File Name="src/Common/Minimal/QPeek.c"/>
+        <File Name="src/Common/Minimal/integer.c"/>
+        <File Name="src/Common/Minimal/BlockQ.c"/>
+        <File Name="src/Common/Minimal/QueueSetPolling.c"/>
+        <File Name="src/Common/Minimal/crflash.c"/>
+        <File Name="src/Common/Minimal/MessageBufferAMP.c"/>
+        <File Name="src/Common/Minimal/dynamic.c"/>
+        <File Name="src/Common/Minimal/flash.c"/>
+        <File Name="src/Common/Minimal/countsem.c"/>
+        <File Name="src/Common/Minimal/QueueOverwrite.c"/>
+        <File Name="src/Common/Minimal/TimerDemo.c"/>
+        <File Name="src/Common/Minimal/blocktim.c"/>
+        <File Name="src/Common/Minimal/QueueSet.c"/>
+        <File Name="src/Common/Minimal/EventGroupsDemo.c"/>
+        <File Name="src/Common/Minimal/AbortDelay.c"/>
+        <File Name="src/Common/Minimal/StaticAllocation.c"/>
+        <File Name="src/Common/Minimal/MessageBufferDemo.c"/>
+        <File Name="src/Common/Minimal/sp_flop.c"/>
+        <File Name="src/Common/Minimal/PollQ.c"/>
+        <File Name="src/Common/Minimal/StreamBufferInterrupt.c"/>
+        <File Name="src/Common/Minimal/flash_timer.c"/>
+        <File Name="src/Common/Minimal/IntSemTest.c"/>
+        <File Name="src/Common/Minimal/comtest_strings.c" ExcludeProjConfig="Debug"/>
+        <File Name="src/Common/Minimal/comtest.c" ExcludeProjConfig="Debug"/>
+        <File Name="src/Common/Minimal/GenQTest.c"/>
+        <File Name="src/Common/Minimal/TaskNotify.c"/>
+        <File Name="src/Common/Minimal/flop.c"/>
+        <File Name="src/Common/Minimal/crhook.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="include">
+        <File Name="src/Common/include/TaskNotify.h"/>
+        <File Name="src/Common/include/StreamBufferInterrupt.h"/>
+        <File Name="src/Common/include/QueueSet.h"/>
+        <File Name="src/Common/include/AbortDelay.h"/>
+        <File Name="src/Common/include/PollQ.h"/>
+        <File Name="src/Common/include/countsem.h"/>
+        <File Name="src/Common/include/partest.h"/>
+        <File Name="src/Common/include/comtest.h"/>
+        <File Name="src/Common/include/flop.h"/>
+        <File Name="src/Common/include/EventGroupsDemo.h"/>
+        <File Name="src/Common/include/StreamBufferDemo.h"/>
+        <File Name="src/Common/include/MessageBufferDemo.h"/>
+        <File Name="src/Common/include/mevents.h"/>
+        <File Name="src/Common/include/semtest.h"/>
+        <File Name="src/Common/include/dynamic.h"/>
+        <File Name="src/Common/include/QPeek.h"/>
+        <File Name="src/Common/include/serial.h"/>
+        <File Name="src/Common/include/fileIO.h"/>
+        <File Name="src/Common/include/BlockQ.h"/>
+        <File Name="src/Common/include/death.h"/>
+        <File Name="src/Common/include/blocktim.h"/>
+        <File Name="src/Common/include/QueueOverwrite.h"/>
+        <File Name="src/Common/include/recmutex.h"/>
+        <File Name="src/Common/include/integer.h"/>
+        <File Name="src/Common/include/comtest_strings.h"/>
+        <File Name="src/Common/include/flash.h"/>
+        <File Name="src/Common/include/print.h"/>
+        <File Name="src/Common/include/crflash.h"/>
+        <File Name="src/Common/include/MessageBufferAMP.h"/>
+        <File Name="src/Common/include/StaticAllocation.h"/>
+        <File Name="src/Common/include/TimerDemo.h"/>
+        <File Name="src/Common/include/IntQueue.h"/>
+        <File Name="src/Common/include/GenQTest.h"/>
+        <File Name="src/Common/include/QueueSetPolling.h"/>
+        <File Name="src/Common/include/flash_timer.h"/>
+        <File Name="src/Common/include/comtest2.h"/>
+        <File Name="src/Common/include/IntSemTest.h"/>
+        <File Name="src/Common/include/crhook.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Full">
+        <File Name="src/Common/Full/death.c"/>
+        <File Name="src/Common/Full/semtest.c"/>
+        <File Name="src/Common/Full/print.c"/>
+        <File Name="src/Common/Full/integer.c"/>
+        <File Name="src/Common/Full/BlockQ.c"/>
+        <File Name="src/Common/Full/dynamic.c"/>
+        <File Name="src/Common/Full/flash.c"/>
+        <File Name="src/Common/Full/PollQ.c"/>
+        <File Name="src/Common/Full/events.c"/>
+        <File Name="src/Common/Full/comtest.c" ExcludeProjConfig="Debug"/>
+        <File Name="src/Common/Full/flop.c"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="portable">
+      <VirtualDirectory Name="GCC">
+        <VirtualDirectory Name="ARM_CM0">
+          <File Name="src/portable/GCC/ARM_CM0/portmacro.h"/>
+          <File Name="src/portable/GCC/ARM_CM0/port.c"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Common">
+        <File Name="src/portable/Common/mpu_wrappers.c"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ASF">
+      <VirtualDirectory Name="sam0">
+        <VirtualDirectory Name="drivers">
+          <VirtualDirectory Name="sercom">
+            <VirtualDirectory Name="usart">
+              <VirtualDirectory Name="quick_start">
+                <File Name="src/ASF/sam0/drivers/sercom/usart/quick_start/qs_usart_basic_use.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="quick_start_callback">
+                <File Name="src/ASF/sam0/drivers/sercom/usart/quick_start_callback/qs_usart_callback.h"/>
+              </VirtualDirectory>
+              <File Name="src/ASF/sam0/drivers/sercom/usart/usart.h"/>
+              <File Name="src/ASF/sam0/drivers/sercom/usart/usart_interrupt.c"/>
+              <File Name="src/ASF/sam0/drivers/sercom/usart/usart.c"/>
+              <File Name="src/ASF/sam0/drivers/sercom/usart/usart_interrupt.h"/>
+            </VirtualDirectory>
+            <File Name="src/ASF/sam0/drivers/sercom/sercom_interrupt.c"/>
+            <File Name="src/ASF/sam0/drivers/sercom/sercom_interrupt.h"/>
+            <File Name="src/ASF/sam0/drivers/sercom/sercom_pinout.h"/>
+            <File Name="src/ASF/sam0/drivers/sercom/sercom.h"/>
+            <File Name="src/ASF/sam0/drivers/sercom/sercom.c"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="port">
+            <VirtualDirectory Name="quick_start">
+              <File Name="src/ASF/sam0/drivers/port/quick_start/qs_port_basic.h"/>
+            </VirtualDirectory>
+            <File Name="src/ASF/sam0/drivers/port/port.h"/>
+            <File Name="src/ASF/sam0/drivers/port/port.c"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="system">
+            <VirtualDirectory Name="interrupt">
+              <VirtualDirectory Name="quick_start">
+                <File Name="src/ASF/sam0/drivers/system/interrupt/quick_start/qs_system_interrupt.h"/>
+              </VirtualDirectory>
+              <File Name="src/ASF/sam0/drivers/system/interrupt/system_interrupt.c"/>
+              <File Name="src/ASF/sam0/drivers/system/interrupt/system_interrupt.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="clock">
+              <VirtualDirectory Name="quick_start_gclk">
+                <File Name="src/ASF/sam0/drivers/system/clock/quick_start_gclk/qs_gclk_basic.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="quick_start_clock">
+                <File Name="src/ASF/sam0/drivers/system/clock/quick_start_clock/qs_clock_source.h"/>
+              </VirtualDirectory>
+              <File Name="src/ASF/sam0/drivers/system/clock/gclk.h"/>
+              <File Name="src/ASF/sam0/drivers/system/clock/clock.c"/>
+              <File Name="src/ASF/sam0/drivers/system/clock/clock_config_check.h"/>
+              <File Name="src/ASF/sam0/drivers/system/clock/gclk.c"/>
+              <File Name="src/ASF/sam0/drivers/system/clock/clock.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="pinmux">
+              <VirtualDirectory Name="quick_start">
+                <File Name="src/ASF/sam0/drivers/system/pinmux/quick_start/qs_pinmux_basic.h"/>
+              </VirtualDirectory>
+              <File Name="src/ASF/sam0/drivers/system/pinmux/pinmux.h"/>
+              <File Name="src/ASF/sam0/drivers/system/pinmux/pinmux.c"/>
+            </VirtualDirectory>
+            <File Name="src/ASF/sam0/drivers/system/system.c"/>
+            <File Name="src/ASF/sam0/drivers/system/system.h"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="boards">
+          <VirtualDirectory Name="samd20_xplained_pro">
+            <File Name="src/ASF/sam0/boards/samd20_xplained_pro/board_init.c"/>
+            <File Name="src/ASF/sam0/boards/samd20_xplained_pro/samd20_xplained_pro.h"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="utils">
+          <VirtualDirectory Name="cmsis">
+            <VirtualDirectory Name="samd20">
+              <VirtualDirectory Name="include">
+                <VirtualDirectory Name="pio">
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20j18.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20e18.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20j15.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20g17.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20g18.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20g15.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20j16.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20e16.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20e14.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20j14.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20j17.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20g16.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20g14.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20e15.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/pio/pio_samd20e17.h"/>
+                </VirtualDirectory>
+                <VirtualDirectory Name="instance">
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc0.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sercom3.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sysctrl.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sercom2.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sercom1.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_pac2.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_nvmctrl.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_adc.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_port.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_rtc.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc3.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_wdt.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc5.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sercom4.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc2.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc4.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc1.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_evsys.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_dac.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc7.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_ac.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_pm.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_pac0.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sercom5.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_eic.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_tc6.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_dsu.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_pac1.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_sercom0.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/instance/instance_gclk.h"/>
+                </VirtualDirectory>
+                <VirtualDirectory Name="component">
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_ac.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_pac.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_pm.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_port.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_dsu.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_tc.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_sercom.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_eic.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_wdt.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_gclk.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_rtc.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_sysctrl.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_adc.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_evsys.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_dac.h"/>
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/include/component/component_nvmctrl.h"/>
+                </VirtualDirectory>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20g18.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20j17.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20g15.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20j18.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20g17.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20j16.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20e18.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20g14.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20e16.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20e15.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20e17.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20j14.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20g16.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20e14.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/include/samd20j15.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="source">
+                <VirtualDirectory Name="gcc">
+                  <File Name="src/ASF/sam0/utils/cmsis/samd20/source/gcc/startup_samd20.c"/>
+                </VirtualDirectory>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/source/system_samd20.h"/>
+                <File Name="src/ASF/sam0/utils/cmsis/samd20/source/system_samd20.c"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="syscalls">
+            <VirtualDirectory Name="gcc">
+              <File Name="src/ASF/sam0/utils/syscalls/gcc/syscalls.c"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="header_files">
+            <File Name="src/ASF/sam0/utils/header_files/io.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="preprocessor">
+            <File Name="src/ASF/sam0/utils/preprocessor/mrepeat.h"/>
+            <File Name="src/ASF/sam0/utils/preprocessor/stringz.h"/>
+            <File Name="src/ASF/sam0/utils/preprocessor/preprocessor.h"/>
+            <File Name="src/ASF/sam0/utils/preprocessor/tpaste.h"/>
+          </VirtualDirectory>
+          <File Name="src/ASF/sam0/utils/compiler.h"/>
+          <File Name="src/ASF/sam0/utils/status_codes.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="common">
+        <VirtualDirectory Name="services">
+          <VirtualDirectory Name="serial">
+            <VirtualDirectory Name="sam0_usart">
+              <File Name="src/ASF/common/services/serial/sam0_usart/usart_serial.h"/>
+            </VirtualDirectory>
+            <File Name="src/ASF/common/services/serial/serial.h"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="utils">
+          <VirtualDirectory Name="interrupt">
+            <File Name="src/ASF/common/utils/interrupt/interrupt_sam_nvic.h"/>
+            <File Name="src/ASF/common/utils/interrupt/interrupt_sam_nvic.c"/>
+          </VirtualDirectory>
+          <File Name="src/ASF/common/utils/interrupt.h"/>
+          <File Name="src/ASF/common/utils/parts.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="boards">
+          <File Name="src/ASF/common/boards/board.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="thirdparty">
+        <VirtualDirectory Name="CMSIS">
+          <VirtualDirectory Name="Include">
+            <File Name="src/ASF/thirdparty/CMSIS/Include/arm_math.h"/>
+            <File Name="src/ASF/thirdparty/CMSIS/Include/core_cmFunc.h"/>
+            <File Name="src/ASF/thirdparty/CMSIS/Include/core_cmInstr.h"/>
+            <File Name="src/ASF/thirdparty/CMSIS/Include/core_cm0plus.h"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <File Name="src/asf.h"/>
+    <File Name="src/stream_buffer.c"/>
+    <File Name="src/queue.c"/>
+    <File Name="src/main.c"/>
+    <File Name="src/printf-stdarg.c"/>
+    <File Name="src/list.c"/>
+    <File Name="src/Sample-CLI-commands.c" ExcludeProjConfig="Debug"/>
+    <File Name="src/tasks.c"/>
+    <File Name="src/UARTCommandConsole.c" ExcludeProjConfig="Debug"/>
+    <File Name="src/timers.c"/>
+    <File Name="src/RegTest.c"/>
+    <File Name="src/event_groups.c"/>
+    <File Name="src/croutine.c"/>
+    <File Name="src/main-full.c" ExcludeProjConfig="Debug"/>
+    <File Name="src/UARTCommandConsole.h"/>
+    <VirtualDirectory Name="config">
+      <File Name="src/config/conf_board.h"/>
+      <File Name="src/config/conf_clocks.h"/>
+      <File Name="src/config/FreeRTOSConfig.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="include">
+      <File Name="src/include/task.h"/>
+      <File Name="src/include/mpu_wrappers.h"/>
+      <File Name="src/include/event_groups.h"/>
+      <File Name="src/include/StackMacros.h"/>
+      <File Name="src/include/deprecated_definitions.h"/>
+      <File Name="src/include/mpu_prototypes.h"/>
+      <File Name="src/include/croutine.h"/>
+      <File Name="src/include/projdefs.h"/>
+      <File Name="src/include/timers.h"/>
+      <File Name="src/include/FreeRTOS.h"/>
+      <File Name="src/include/portable.h"/>
+      <File Name="src/include/stack_macros.h"/>
+      <File Name="src/include/queue.h"/>
+      <File Name="src/include/stream_buffer.h"/>
+      <File Name="src/include/list.h"/>
+      <File Name="src/include/semphr.h"/>
+      <File Name="src/include/message_buffer.h"/>
+      <File Name="src/main-blinky.c"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="Cross GCC ( arm-none-eabi )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-Wmain;-g;-O0;-Wall;-mcpu=cortex-m0;-mthumb;-mabi=aapcs;-mfloat-abi=soft;-ffunction-sections;-fdata-sections;-fno-strict-aliasing;-fno-builtin;-fshort-enums" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="src"/>
+        <IncludePath Value="src/ASF/common/boards"/>
+        <IncludePath Value="src/ASF/common/utils"/>
+        <IncludePath Value="src/ASF/sam0/boards"/>
+        <IncludePath Value="src/ASF/sam0/boards/samd20_xplained_pro"/>
+        <IncludePath Value="src/ASF/sam0/drivers/port"/>
+        <IncludePath Value="src/ASF/sam0/drivers/system"/>
+        <IncludePath Value="src/ASF/sam0/drivers/system/clock"/>
+        <IncludePath Value="src/ASF/sam0/drivers/system/interrupt"/>
+        <IncludePath Value="src/ASF/sam0/drivers/system/pinmux"/>
+        <IncludePath Value="src/ASF/sam0/utils"/>
+        <IncludePath Value="src/ASF/sam0/utils/cmsis/samd20/include"/>
+        <IncludePath Value="src/ASF/sam0/utils/cmsis/samd20/include/component"/>
+        <IncludePath Value="src/ASF/sam0/utils/cmsis/samd20/include/pio"/>
+        <IncludePath Value="src/ASF/sam0/utils/cmsis/samd20/source"/>
+        <IncludePath Value="src/ASF/sam0/utils/header_files"/>
+        <IncludePath Value="src/ASF/sam0/utils/preprocessor"/>
+        <IncludePath Value="src/ASF/thirdparty/CMSIS/Include"/>
+        <IncludePath Value="src/ASF/thirdparty/CMSIS/Lib/GCC"/>
+        <IncludePath Value="src/config"/>
+        <IncludePath Value="src/ASF/common/services/serial"/>
+        <IncludePath Value="src/ASF/sam0/drivers/sercom"/>
+        <IncludePath Value="src/ASF/sam0/drivers/sercom/usart"/>
+        <IncludePath Value="src/include"/>
+        <IncludePath Value="src/portable"/>
+        <IncludePath Value="src/portable/GCC"/>
+        <IncludePath Value="src/portable/GCC/ARM_CM0"/>
+        <IncludePath Value="src/Common"/>
+        <IncludePath Value="src/Common/include"/>
+        <IncludePath Value="src/Common/Minimal"/>
+        <IncludePath Value="src/Common/drivers"/>
+        <IncludePath Value="src/Common/drivers/Atmel"/>
+        <IncludePath Value="src/Common/drivers/Atmel/at91lib"/>
+        <IncludePath Value="src/Common/drivers/Atmel/at91lib/peripherals"/>
+        <IncludePath Value="src/Common/drivers/Atmel/at91lib/utility"/>
+        <IncludePath Value="/opt/arm-none-eabi/arm-none-eabi/include/"/>
+        <Preprocessor Value="ARM_MATH_CM0=true"/>
+        <Preprocessor Value="BOARD=SAMD20_XPLAINED_PRO"/>
+        <Preprocessor Value="__SAMD20J18__"/>
+        <Preprocessor Value="USART_CALLBACK_MODE=true"/>
+      </Compiler>
+      <Linker Options="-mthumb -mabi=aapcs -mcpu=cortex-m0 -T samd20j18_flash.ld -Wl,--gc-sections --specs=nano.specs -lc -lnosys" Required="yes">
+        <LibraryPath Value="src/ASF/thirdparty/CMSIS/Lib/GCC"/>
+        <LibraryPath Value="src/ASF/sam0/utils/linker_scripts/samd20/gcc"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="Cross GCC ( arm-none-eabi )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
